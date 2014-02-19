@@ -1,0 +1,234 @@
+/*Code for cross-browser compatability*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Google Clone Project Begins*/
+html, body {
+	height: 100%;
+	min-width: 980px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	height: 100%;
+	width: 100%;
+	vertical-align: 
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.viewport {
+	min-height: 100%;
+	position: relative;
+}
+
+/*Navigation Bar & Sign-In Button Set-Up*/
+.header {
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+.header ul {
+	float: right;
+}
+
+.header ul li {
+	float: left;
+	padding: 8px;
+	position: relative;
+}
+
+.fauxButton{
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	padding: 7px 12px 7px 12px;
+	color: white; 
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.fauxButton:active{
+	text-decoration: none;
+	background-color: #3275e4
+}
+
+.fauxButton:hover{
+	text-decoration: none;
+	cursor: default;
+	box-shadow: 0px 1px 0px #aaaaaa;
+}
+
+ /*Google Logo, Search Field, and Search Buttons*/
+.main {
+	clear: both;
+	margin: auto;
+	/*width: 80%;*/
+	padding-top: 150px;
+	padding-bottom: 65px;
+	text-align: center;
+}
+
+.title img {	
+	left:0;
+	top:0;
+	width: 270px;
+}
+
+.title {
+	position: relative;
+	margin: auto;
+	width: 270px;
+}
+
+.searchBoxContainer {
+	position: relative;
+	width: 600px;
+	margin: auto;
+}
+
+#searchBox {
+	margin-top: 20px;
+	width: 523px;
+	font-size: medium;
+	border: 1px solid #cccccc;
+	padding: 5px 40px 5px 5px;
+	font-family: Arial, sans-serif;
+}
+
+#searchBox:hover{
+	border: 1px solid #aaaaaa;
+}
+
+#searchBox:focus {
+	border: 1px solid #3275e4;
+	outline: none;	
+}
+
+#voiceSearch {
+	opacity: 0.5;
+	position: absolute;
+	right: 22px;
+	bottom: 6px;
+	height: 21px;
+	width: 15px;
+}
+#voiceSearchA:hover img{
+	opacity: 0.7;
+	cursor: default;
+}
+
+.searchButton {
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	background-color: #eeeeee;
+	padding: 8px 6px 8px 6px;
+	margin: 10px 5px 0px 0px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color: #666666;
+}
+
+.searchButton:hover{
+	border: 1px solid #aaaaaa;
+	box-shadow: 0px 1px 0px #aaaaaa;
+	color: black;
+}
+
+.searchButton:active, .searchButton:focus{
+	border: 1px solid #3275e4;
+	outline: none;
+	color: black;
+}
+
+/*Footer Set-Up*/
+.footer {	
+	color: #666666;
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	min-width: 980px;
+}
+
+.footer a{
+	color: #666666;	
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+}
+
+.left, .right {
+	position: relative;
+	bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.right ul {
+	float: right;
+}
+
+.footer ul li {
+	float: left;
+	padding: 15px;
+}
+
+.new{
+	color: #b14436;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+
+    <head>
+    	<meta charset="UTF-8">
+    	<title>Hot or Cold</title>
+        <link rel="stylesheet" type="text/css" href="meyerCssReset.css">
+    	<link rel="stylesheet" type="text/css" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="application.js"></script>
+    </head>
+
+    <body>
+        <!--Main content set-up -->
+    	<div id="container">
+
+            <!--Set-up title -->
+            <h1 id="title">Hot or Cold</h1>
+
+            <!--Set-up instructions -->
+            <div id="instructions">
+                <h3>Guess a number between 1 and 100.</h3>
+            </div>
+
+            <!--Set up game -->
+            <input id="guess" class="clear" type="text" name="userGuess" autocomplete="off"/>
+            
+            <!--Buttons set-up-->
+            <div id="buttons">
+                <button id="submit">Submit</button>
+                <button id="new">Start New Game</button>
+            </div>
+
+            <!--Feedback and track of guesses -->
+            <div id="results">
+                <h2 >You've guessed: <span id="allGuesses" class="clear"></span></h2>
+                <h2 id="invalidGuess" class="clear"></h2>
+                <h2 id="hotter" class="clear">Hotter</h2>
+                <h2 id="colder" class="clear">Colder</h2>
+            </div>
+
+        </div> <!--Closing div for container id-->
+
+    </body>
+</html>
