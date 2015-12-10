@@ -5,4 +5,4 @@ As they submit their guesses the game lets them know how hot or cold they are to
 
 <p>You can view this application online at <a href="http://kdrosado.github.io/HotOrCold/">Hot or Cold Guessing Game</a>.</p>
 
-<img src="images/food-and-fine-wine.jpg" alt="The Earth half frozen and hot.">
+<img src="images/hot-cool-planet-cold-and-lightning.jpg" alt="The Earth half frozen and hot">
